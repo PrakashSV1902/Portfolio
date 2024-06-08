@@ -1,0 +1,93 @@
+.education__subcontainer{
+    width: 80%;
+    margin: 40px auto;
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.educationcontainer{
+    background-color: #E3FEF7;
+    padding-bottom: 40px;
+}
+.edu__img{
+    width: 45%;
+}
+.edu__img img{
+    width: 450px;
+    height: 400px;
+}
+.edu__education{
+    width: 45%;
+}
+.educationcontainer h1{
+   text-align: center;
+   margin-top: 40px;
+   padding-top: 20px;
+}
+
+.edu__box{
+    display: flex;
+    margin: 10px auto;
+}
+
+.edu__school{
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.edu__year{
+    width: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.edu__school:hover,.edu__year:hover{
+    scale: 1.05;
+}
+
+@media all and (max-width:500px) {
+    .educationcontainer h1{
+        font-size: 22px;
+    }
+    .edu__img{
+        display: none;
+    }
+    .edu__education{
+        width: 100%;
+        
+    }
+    .edu__school{
+        width: 70%;
+        margin-right: 5px;
+    }
+
+    .edu__year{
+        width: 25%;
+        margin-left: 5px;
+    }
+    .edu__education p{
+        font-size: 12px;
+    }
+    .edu__education h4{
+        font-size: 13px;
+    }
+    .educationcontainer{
+        padding-bottom: 20px;
+    }
+    .edu__year h4{
+        font-size: 12px;
+    }
+}

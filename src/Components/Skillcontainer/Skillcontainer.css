@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+.skill__subcontainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.skillcontainer h1{
+    text-align: center;
+}
+.skillcontainer{
+    margin-top: 40px;
+}
+
+.skill__box{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    width: 90px;
+    display: flex;
+    font-family: "Crimson Text",serif;
+    padding: 8px;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) , 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.skill__box h4{
+    padding: 0 5px;
+}
+
+.frontend__container{
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+.others__container{
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.backend__container{
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.skill__frotend{
+    width: 40%;
+}
+.skill__others{
+    width: 40%;
+}
+.skill__backend{
+    width: 40%;
+}
+
+.skill__frotend h2{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skill__others h2{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skill__backend h2{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skill__subcontainer img{
+    width: 20px;
+    height: 20px;
+}
+
+.backend__container:hover,.others__container:hover,.frontend__container:hover{
+    scale: 1.05;
+}
+
+@media all and (max-width:500px) {
+    .skill__subcontainer{
+        flex-direction: column;
+    }
+    .skillcontainer h1{
+        font-size: 22px;
+    }
+    .skill__others h2,.skill__frotend h2,.skill__backend h2{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .skill__frotend,.skill__others,.skill__backend{
+        width: 100%;
+    }
+    .backend__container,.others__container,.frontend__container{
+        padding: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .skill__box{
+        font-size: 12px;
+        width: 90px;
+        padding: 5px;
+        margin: 8px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .skill__subcontainer img{
+        width: 15px;
+        height: 15px;
+    }
+}

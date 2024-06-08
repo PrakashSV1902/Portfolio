@@ -1,0 +1,15 @@
+.topcontainer{
+    background: url(../../asserts/Image/Topcontainer_bg.png);
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5) ; */
+
+}
+
+@media all and (max-width:500px) {
+    /* .topcontainer{
+        display: none;
+    } */
+}

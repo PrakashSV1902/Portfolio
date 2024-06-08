@@ -1,0 +1,45 @@
+.Displayproject img{
+    width: 200px;
+    height: 120px;
+    border-radius: 3px;
+}
+
+.Displayproject{
+    margin: 15px;
+    width: 200px;
+    height: 120px;
+    transition: transform 100ms ease-in;
+}
+
+.Displayproject:hover{
+    color: white;
+    background-color: grey;
+    border-radius: 3px;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.projectcontent button{
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.projectcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+

@@ -1,0 +1,94 @@
+/* .topcontent{
+    border: 2px solid;
+} */
+
+.topcontent__container{
+    position: absolute;
+    top: 280px;
+    right: 100px;
+    width: 500px;
+}
+
+.topcontent__container p {
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 20px;
+}
+
+.topcontent__container h1{
+    font-size: 2.5em;
+    padding: 8px 0;
+    /* color: #135D66; */
+}
+
+
+.topcontent__container a button{
+    text-align: left;
+    font-size: 1em;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background-color: #135D66;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+    
+.topcontent__container a button:hover{
+    scale: 1.08;
+}
+
+.topcontent__img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    left: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.movetext{
+    position: relative;
+    -webkit-animation: moving 3s ease-in-out;
+    animation: moving 3s ease-in-out ;
+}
+@-webkit-keyframes moving {
+    from {left: -200px;}
+    to {left: 0px;}
+}
+
+@keyframes moving {
+    from {left: -200px;}
+    to {left: 0px;}
+}
+
+@media all and (max-width:500px) {
+    .topcontent__img{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 100px;
+        top: 130px;
+
+    }
+
+    .topcontent__container p {
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .topcontent__container{
+        position: absolute;
+        top: 330px;
+        left: 200px;
+        font-size:0.6em;
+        text-align: center;
+        width: 300px;
+        position: absolute;
+        left: 50px;
+        top: 380px;
+    }
+}
